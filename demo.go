@@ -1,10 +1,8 @@
-//#cgo
-package example
+package main
 
-// extern int fortytwo();
+// #include "demo.h"
 import "C"
 
-func ZweiUndVierzig() int {
-   return int(C.fortytwo())
+func zweiundvierzig() int {
+  return int(C.fortytwo())
 }
-
