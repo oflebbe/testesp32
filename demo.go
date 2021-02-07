@@ -1,8 +1,8 @@
-package main
+package testesp32 
 
 // #include "demo.h"
 import "C"
 
-func zweiundvierzig() int {
+func Zweiundvierzig() int {
   return int(C.fortytwo())
 }
