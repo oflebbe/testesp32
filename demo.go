@@ -1,8 +1,11 @@
-package testesp32 
+package testesp32
 
-// #include "demo.h"
+/*
+#include "demo.h"
+#cgo CFLAGS: -Iinclude
+*/
 import "C"
 
 func Zweiundvierzig() int {
-  return int(C.fortytwo())
+	return int(C.fortytwo())
 }

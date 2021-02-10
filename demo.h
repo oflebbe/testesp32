@@ -1,1 +1,3 @@
-extern int fortytwo();
+#include <foo.h>
+extern int fortytwo(void);
+

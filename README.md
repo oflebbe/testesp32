@@ -17,6 +17,10 @@ or
 
 Error message
 ```
-# github.com/oflebbe/testesp32
-demo.go:7:14: undeclared name: C.fortytwo
+.../testesp32/demo.c:1:10: fatal error: 'foo.h' file not found
+#include <foo.h>
+         ^~~~~~~
+1 error generated.
+failed to run tool: clang
+error: failed to build .../testesp32/demo.c: exit status 1
 ```

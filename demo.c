@@ -1,5 +1,6 @@
+#include <foo.h>
 
 int fortytwo()
 {
-	    return 42;
+	    return FOO;
 }
